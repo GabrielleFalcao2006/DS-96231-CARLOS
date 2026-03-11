@@ -9,11 +9,11 @@ public class Processador extends Super {
         this.frequencia = frequencia;
     }
 
-    public double getFrequencia() {
+    public String getFrequencia() {
         return frequencia;
     }
 
-    public void setFrequencia(double frequencia) {
+    public void setFrequencia(String frequencia) {
         this.frequencia = frequencia;
     }
 }
