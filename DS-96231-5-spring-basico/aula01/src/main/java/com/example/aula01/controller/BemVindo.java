@@ -13,12 +13,12 @@ public class BemVindo {
 
     @GetMapping ("/dev")
     public String nomeDev() {
-        return "Feito por: Alvaro";
+        return "Feito por: Gabi";
 
     }
 
     @GetMapping ("/dev/teste")
     public String teste(){
-        return "Teste da aula mais chata do semestre 3";
+        return "Teste!!!!!!!!!";
     }
 }
