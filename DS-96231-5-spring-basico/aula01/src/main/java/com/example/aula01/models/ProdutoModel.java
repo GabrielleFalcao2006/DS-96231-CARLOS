@@ -13,21 +13,23 @@ public class ProdutoModel {
     private Long id;
 
     private String nome;
-    private String dataCompra;
-    private String dataVencimento;
-    private String preco;
+    private String DataValidade;
+    private int quantidade;
+    private Double preco;
 
-    public ProdutoModel() {}
+    public ProdutoModel() {
+    }
 
-    public ProdutoModel(Long id, String nome, String dataCompra, String dataVencimento, String preco) {
+    public ProdutoModel(Long id, String nome, String dataValidade, int quantidade, Double preco) {
         this.id = id;
         this.nome = nome;
-        this.dataCompra = dataCompra;
-        this.dataVencimento = dataVencimento;
+        DataValidade = dataValidade;
+        this.quantidade = quantidade;
         this.preco = preco;
     }
 
     public Long getId() {
+
         return id;
     }
 
@@ -43,27 +45,27 @@ public class ProdutoModel {
         this.nome = nome;
     }
 
-    public String getDataCompra() {
-        return dataCompra;
+    public String getDataValidade() {
+        return DataValidade;
     }
 
-    public void setDataCompra(String dataCompra) {
-        this.dataCompra = dataCompra;
+    public void setDataValidade(String dataValidade) {
+        DataValidade = dataValidade;
     }
 
-    public String getDataVencimento() {
-        return dataVencimento;
+    public int getQuantidade() {
+        return quantidade;
     }
 
-    public void setDataVencimento(String dataVencimento) {
-        this.dataVencimento = dataVencimento;
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
     }
 
-    public String getPreco() {
+    public Double getPreco() {
         return preco;
     }
 
-    public void setPreco(String preco) {
+    public void setPreco(Double preco) {
         this.preco = preco;
     }
 }
