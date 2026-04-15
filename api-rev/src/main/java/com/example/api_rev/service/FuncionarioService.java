@@ -39,7 +39,5 @@ public class FuncionarioService {
         if (!repository.existsById(id)) {
             throw new IllegalArgumentException(((((((("Funcionário não encontrado!"))))))));
         }
-        repository.deleteById(id);
     }
-
 }
