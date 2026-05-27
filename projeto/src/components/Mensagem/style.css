@@ -1,0 +1,13 @@
+.mensagem h1{
+    font-size: 52px;
+    color: rgb(5, 25, 90);
+    text-align: center;
+}
+
+.mensagem p{
+    font-size: 18xp;
+    font-family: 'Georgia';
+    color: rgb(87, 12, 12);
+    text-align: center;
+}
+
